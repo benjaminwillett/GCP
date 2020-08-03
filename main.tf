@@ -1,7 +1,7 @@
 provider "google" {
   version = "3.5.0"
 
-  credentials = file(var.credentials_file)
+  credentials = file(var.credentials)
 
   project = "terraform-project1-285302"
   region  = "australia-southeast1"
